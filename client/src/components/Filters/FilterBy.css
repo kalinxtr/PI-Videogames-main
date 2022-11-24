@@ -1,0 +1,25 @@
+.container-div{
+    display: flex;
+    justify-content: center;
+}
+
+.selectors {
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.options {
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.optionGroup {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 100px;
+}

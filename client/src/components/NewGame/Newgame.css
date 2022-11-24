@@ -1,0 +1,153 @@
+.div-zero-form {
+    background:url('../../myImages/BackgroundGamer.webp');
+    background-repeat: repeat;
+    font-family: 'Courier New', Courier, monospace;
+    height: 800px;
+}
+
+
+.Form {
+    height: fit-content;
+    width: 900px;
+}
+
+.Form form {
+    display: grid;
+    grid-template-columns: 50% auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.genres-div-form{
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    color:white;
+    width:fit-content;
+    margin-left: 5px;
+}
+
+.genres-div-form select{
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.genres-display{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    color: white;
+}
+
+.genre-value{
+    margin: 6px;
+    max-width: 100px;
+    background-color: #c61b25;;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.genre-value button{
+    background-color: #9954d8;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+}
+
+
+.input-description-div{
+    color: white;
+    height: fit-content;
+    width:220px;
+    text-align: center;
+
+}
+
+.input-description-div textarea {
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+
+.platform-div{
+    text-align: center;
+    width:fit-content;
+    color: white;
+}
+
+.div-name-form{
+    height: fit-content;
+    width: 220px;
+    text-align: center;
+    color: white;
+}
+
+.div-release-date{
+    width: 220px;
+    text-align: center;
+    top: 10px ;
+    color: white;
+}
+
+.div-form-image{
+    width: 295px;
+    text-align: center;
+    top: 10px ;
+    color: white;
+}
+
+
+.div-form-rating{
+    color: white;
+    width: 295px;
+    text-align: center;
+    top: 10px ;
+}
+
+.div-but-form{
+    width: 295px;
+    text-align: center;
+    height: 100px ;
+}
+
+.div-but-form button{
+    color: white;
+    background-color: #9954d8;
+    font-weight: bold;
+    font-size:medium;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #9954d8;
+}
+
+.labelstyles{
+    background-color: #10d2a1;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#c61b25;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.Form input  {
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.allForm{
+margin-left: 220px;
+background-color: rgba(0, 0, 0, 0.497);
+width: fit-content;
+min-height: fit-content;
+backdrop-filter: blur(8px);
+border-radius: 10px;
+}
+
+.allForm h2{
+    margin-left: 160px;
+    color: white;
+}

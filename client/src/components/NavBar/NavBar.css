@@ -1,0 +1,29 @@
+.navbar-div {
+        background: rgb(0, 0, 0) url('../../myImages/LandingBG.jpg') center center/cover no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 800;
+        font-size:small;
+
+}
+
+.navbar-div button{
+        font-family: 'Press Start 2P';
+        padding: 10px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow:100%;
+        background-color: rgba(33,37,42,255);
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-weight: 800;
+        font-size: small;
+        box-shadow: 3px 3px 3px 3px #000000af;
+}
+
+.navbar-div button:hover {
+        background-color: black;
+        color:turquoise
+}

@@ -1,0 +1,74 @@
+.primaryDiv img{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.primaryDiv h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size:30;
+    z-index: 10000;
+    position: absolute;
+    margin-left: 31rem;
+    background-color: white;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+    animation-name: myAnim2;
+    animation-duration: 1s;
+    top: -2%;
+}
+
+.buttonLanding {
+    left:45%;
+    top:85%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: large;
+    position:absolute;
+    background-color: white;
+    padding: 5px 12px 5px 12px;
+    border-radius: 5px;
+    animation-name: myAnim1;
+    animation-duration: 1s;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.buttonLanding span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonLanding span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonLanding:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonLanding:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+@keyframes myAnim1{
+    0% {top: 80%; opacity: 0%;background-color: black;}
+    100% {top: 85%; opacity: 100%;}
+}
+
+@keyframes myAnim2{
+    0% {top: 10%; opacity: 0%;background-color: black;}
+    100% {top: -2%; opacity: 100%;}    
+}

@@ -1,0 +1,91 @@
+.gameCardContainer {
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap:nowrap;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #21252a57;
+    box-shadow: 6px 5px 9px 4px #000000;
+    text-decoration: none;
+    transition: all .2s;
+    backdrop-filter: blur(10px);
+}
+
+.gameCardContainer:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background: #464646;
+}
+
+
+
+.gameImg img {
+    max-width: 500px;
+    max-height:600px;
+    border-radius: 10px;
+}
+
+.gameTitle {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size:x-large;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.infoRating p{
+    display: flex;
+    justify-content: left;
+    color: #6cb2c1;
+    align-items:left;
+    padding: 5px 10px 5px 10px;
+    background-color: #111111;
+    box-shadow: 1px 3px 3px 3px #000000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Link {
+    font-family: 'Courier New', Courier, monospace;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px 1px #000000;
+    text-decoration: none;
+}
+
+
+.genresContainer p {
+    color: #6cb2c1;
+    padding: 5px 10px 5px 10px;
+    background-color: #111111;
+    box-shadow: 1px 3px 3px 3px #000000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+.detailLinkButton {
+    background-color: #b4000f;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius:10px;
+}
+

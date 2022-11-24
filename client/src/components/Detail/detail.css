@@ -1,0 +1,79 @@
+.alldetail {
+    background-image: rgb(0, 0, 0) url('../../myImages/BackgroundGamer.webp') center center/cover no-repeat;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    width: 700px;
+    align-items: center;
+
+}
+.background-div{
+    background: rgb(0, 0, 0) url('../../myImages/BackgroundGamer.webp') ;
+    background-repeat: repeat;
+}
+
+
+.read-more-button {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #9459c7;
+    font-weight: bold;
+    border: 1px #9459c7;
+    box-shadow: 0 5px #666;
+}
+
+.read-more-button:active {
+    background-color: #7a49a5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+.data{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.detail img {
+    width: 900px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.detail{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #21252a57;
+    box-shadow: 6px 5px 9px 4px #131313c2;
+    color: #6cb2c1;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+}
+
+.zero-div{
+    margin-left: 90%;
+}
+
+.genres {
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #21252a57;
+    color: #6cb2c1;
+    box-shadow: 6px 5px 9px 4px #131313c2;
+    font-family: 'Courier New', Courier, monospace;
+    backdrop-filter: blur(10px);
+}
